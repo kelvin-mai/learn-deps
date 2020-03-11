@@ -1,4 +1,7 @@
 {:paths ["src/clj"]
- :deps {org.clojure/clojure {:mvn/version "1.10.1"}}
+ :deps {org.clojure/clojure {:mvn/version "1.10.1"}
+        http-kit {:mvn/version "2.4.0-alpha6"}
+        compojure {:mvn/version "1.6.1"}
+        cheshire {:mvn/version "5.9.0"}}
  :aliases {:run {:main-opts ["-m" "learn-deps.core"]}
            :repl {:extra-deps {nrepl/nrepl {:mvn/version "0.6.0"}}}}}
