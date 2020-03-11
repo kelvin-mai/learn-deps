@@ -1,0 +1,4 @@
+{:paths ["src/clj"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.1"}}
+ :aliases {:run {:main-opts ["-m" "learn-deps.core"]}
+           :repl {:extra-deps {nrepl/nrepl {:mvn/version "0.6.0"}}}}}
